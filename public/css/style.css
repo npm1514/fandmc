@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
-@font-face { 
-    font-family: 'HelveticaNeue-Bold';  
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
     src: url(fonts/HelveticaNeue-Bold.TTF);
 }
-@font-face { 
-    font-family: 'HelveticaNeue-Light';  
+@font-face {
+    font-family: 'HelveticaNeue-Light';
     src: url(fonts/HelveticaNeue-Light.OTF);
 }
 
@@ -13,7 +13,7 @@ html {
 }
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-} 
+}
 ::i-block-chrome, .testimonial-sec  h1.text-white {
     font-weight: bold !important;
 }
@@ -31,10 +31,10 @@ hr {
     margin-bottom: 0px;
 }
 .parallax{
-    background-position: center; 
-    background-attachment: fixed; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .theme-color{
@@ -243,7 +243,7 @@ ul::before{
     font-family: 'NimbusSanLRegular';
     letter-spacing: 0.6px;
 }
-.skills-sec ul li:before { 
+.skills-sec ul li:before {
     content: url('../img/diamond.png');
     padding-right:12px;
 }
@@ -301,8 +301,11 @@ a:focus, a:hover {
     color: #b5b2b2;
     padding: 0px 3px;
 }
+#quotes {
+  background-color: #03999b80;
+}
 .testimonial-sec{
-    height: 700px;
+    height: auto;
     background-image: url('../img/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -328,7 +331,7 @@ a:focus, a:hover {
     padding: 147px 50px;
 }
 .testimonial-sec .item h1{
-    font-size: 41px;
+    font-size: 34px;
     font-weight: lighter;
     line-height: 60px;
     padding: 0 15px;
@@ -345,7 +348,7 @@ a:focus, a:hover {
     display:block !important;
 }
 .testimonial-sec  button{
-    position: absolute;    
+    position: absolute;
     top: 45%;
 }
 .testimonial-sec .owl-nav .owl-prev{
@@ -396,7 +399,7 @@ a:focus, a:hover {
     height: auto !important;
 }
 .form-control::placeholder {
-    color: #205463 !important;  
+    color: #205463 !important;
 }
 .contact-sec .form-group {
     margin: 30px 0;
@@ -431,7 +434,7 @@ a:focus, a:hover {
     }
     .booknow-btn {
         font-size: 14px;
-    }   
+    }
     .banner-section {
         padding-top: 53px;
     }
@@ -444,7 +447,7 @@ a:focus, a:hover {
     .logo img{
         width: 175px;
         height: 56px;
-    }  
+    }
     .navbar-toggle {
         position: absolute;
         right: 0;
@@ -570,7 +573,7 @@ a:focus, a:hover {
         margin: 43px 0 8px;
     }
     .testimonial-sec {
-        height: 375px;
+        height: auto;
     }
     .testimonial-sec button {
         top: 72%;
@@ -790,11 +793,11 @@ a:focus, a:hover {
     .header_section ul li a {
         font-size: 17px;
     }
-}   
+}
 @media (min-width:1400px){
     .header_section .booknow-btn {
-        padding: 10px 50px !important; 
-    } 
+        padding: 10px 50px !important;
+    }
     .header_section ul li {
         margin-right: 38px;
     }
