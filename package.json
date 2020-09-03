@@ -1,0 +1,24 @@
+{
+  "name": "pierce-auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm1514/Auto-Restoration-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm1514/Auto-Restoration-Site/issues"
+  },
+  "homepage": "https://github.com/npm1514/Auto-Restoration-Site#readme",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.4"
+  }
+}
