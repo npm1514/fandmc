@@ -45,9 +45,10 @@ app.get('/', (req, res) => {
           <script src="js/owl.carousel.min.js"></script>
           <script src="js/jquery.matchHeight.js"></script>
           <script>
-            if(window.location.href != "https://www.fandmccoaching.com"){
-              window.location.href = "https://www.fandmccoaching.com";
-            }
+            console.log("crash", window.location.href);
+            // if(window.location.href != "https://www.fandmccoaching.com"){
+            //   window.location.href = "https://www.fandmccoaching.com";
+            // }
           </script>
       </head>
       <body>
