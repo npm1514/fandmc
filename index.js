@@ -46,9 +46,9 @@ app.get('/', (req, res) => {
           <script src="js/jquery.matchHeight.js"></script>
           <script>
             console.log("crash", window.location.href);
-            // if(window.location.href != "https://www.fandmccoaching.com"){
-            //   window.location.href = "https://www.fandmccoaching.com";
-            // }
+            if(window.location.href != "https://www.fandmccoaching.com/"){
+              window.location.href = "https://www.fandmccoaching.com/";
+            }
           </script>
       </head>
       <body>
